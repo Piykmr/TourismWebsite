@@ -1,0 +1,126 @@
+<!Doctype html>
+<html>
+
+<head>
+  <title>Tourism Website</title>
+  <script src="javascript.js"></script>
+  <link rel="stylesheet" href="web1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+    #main{width:600px; height:auto; overflow:hidden; padding-bottom:20px; margin-left:auto; margin-right:auto; 
+    border-radius:5px; padding-left:10px; margin-top:100px; border-top:3px double #f1f1f1; 
+    border-bottom:3px double #f1f1f1; padding-top:20px;
+    }
+    
+  
+    /* css code for textbox */
+    #main .tb{height:28px; width:230px; border:1px solid #f26724; color:#fd7838; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;}
+    
+    #main .tb:focus{height:28px; border:1px solid #f26724; outline:none; border-left:5px solid #f7f7f7;}
+
+    /* css code for button*/
+    #main .btn{width:150px; height:32px; outline:none;  color:#f7f7f7; font-weight:bold; border:0px solid #f26724; 
+    text-shadow: 0px 0.5px 0.5px #fff; border-radius: 2px; font-weight: 600; color: #f26724; letter-spacing: 1px; 
+    font-size:14px; background-color:#f1f1f1; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;}
+  
+    #main .btn:hover{background-color:#f26724; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+    -webkit-transition: 1s; -moz-transition: 1s; transition: 1s; }
+</style>
+
+<body style="background-color:  black">
+
+    <table>
+      <tr>
+        <td style="width:10%;"><img src="images/loc.png"></td>
+        
+        <td style="width:90%;"><nav class="menu">
+
+    <nav class="menu">
+      <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;
+      <a href="about.html">About </a>&nbsp;&nbsp;&nbsp;
+      <a href="contact.html">Contact</a>&nbsp;&nbsp;&nbsp;
+      
+    </nav></td></tr></table>
+
+  </div>
+
+
+   <!-- Main div code -->
+	<div id="main" style="color:white;">
+    <div class="h-tag">
+    <h2>Create Your Account</h2>
+    </div>
+    <!-- create account div -->
+    <div class="login">
+    <table cellspacing="2" align="center" cellpadding="8" border="0">
+    <tr>
+    <td align="right">Enter Name :</td>
+    <td><input type="text" placeholder="Enter user here" id="t1" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Email ID :</td>
+    <td><input type="text" placeholder="Enter Email ID here" id="t2" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Username :</td>
+    <td><input type="text" placeholder="Enter Username here" id="t3" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Password :</td>
+    <td><input type="password" placeholder="Enter Password here" id="t4" class="tb" /></td>
+    </tr>
+    <tr>
+    <td align="right">Enter Confirm Password :</td>
+    <td><input type="password" placeholder="Enter Password here" id="t5" class="tb" /></td>
+    </tr>
+    <tr>
+    <td></td>
+    <td>
+    <input type="reset" value="Clear Form" onclick="clearFunc()" id="res" class="btn" />
+    <input type="submit" value="Create Account" class="btn" onclick="registration()" /></td>
+    </tr>
+    </table>
+    </div>
+    </div>
+    <br>
+
+    <table width="100%"  style="background-color:#a3a3c2">
+      <tr>
+        <td style="text-align:center;"><strong>Top Deals</strong></td>
+        <td><strong>Follow Us On </strong></td>
+        <td><strong>Book Now</strong></td>
+        <td><strong>Contact Information</strong></td>
+        
+      </tr>
+      <tr>
+        <td style="text-align:center;">Get Unbeatable rates for your trip<br> Easy & Quick Online Booking<br> Use Code-MCA36</td>
+    
+        <td>
+          <div class="follow" >
+          <a href="www.facebook.com" class="fa fa-facebook" style="color:#3B5998;"></a><br>
+          <a href="www.youtube.com" class="fa fa-youtube" style="color:red;"></a><br>
+          <a href="www.instagram.com" class="fa fa-instagram" style="color:red;"></a><br>
+          <a href="www.pinterest.com" class="fa fa-pinterest" style="color:red;"></a>
+        </div>   
+        </td>
+        <td><a href="#" style="color:#333300;">Flight</a><br>
+          <a href="#" style="color:#333300;">Hotels</a><br>
+          <a href="#" style="color:#333300;">Tour</a><br>
+          <a href="#" style="color:#333300;">Car</a><br>
+          <a href="#" style="color:#333300;">Beach & Resorts</a><br>
+          <a href="#" style="color:#333300;">Cruises</a>
+        </td>
+    
+        <td>MSR NAGAR<br>
+          BANGALORE,560054<br>
+          + 91 6200170015<br>
+          rajpiyush72@gmail.com<br>
+      </tr>
+    </table>
+    <hr>
+    <p style="color:white; text-align: center;">Copyright All Rights Reserved © 2021. Powered by Piyush®</p>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+
+li{
+  color:white;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #bfbfbf;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e6e6e6;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #d9d9d9;
+  background-color: transparent;
+  text-decoration: underline;
+}
+h2{
+	color:white;
+}
+h3{
+  text-align:center;
+}
+.menu{
+	text-align: center;
+	font-size: 20px;
+	background-color: solid gray;
+}
+#image{
+	display:block;
+	margin-left: 15%;
+}
+
+label{
+	font-size: 20px;
+	
+}
+.table1{
+	text-align: center;
+}
+.reg{
+  text-align:center;
+  font-size: 20px;
+}
+
+.about{
+  margin-left: 5%;
+}
+
+
+/* Styling the area of the slides */
+#slideshow { 
+overflow: hidden; 
+height: 510px; 
+width: 728px; 
+margin: 0 auto; 
+} 
+
+/* Style each of the sides 
+with a fixed width and height */
+.slide { 
+float: left; 
+height: 510px; 
+width: 728px; 
+} 
+
+/* Add animation to the slides */
+.slide-wrapper { 
+/* Calculate the total width on the 
+basis of number of slides */
+width: calc(728px * 8); 
+
+/* Specify the animation with the 
+duration and speed */
+animation: slide 25s ease infinite; 
+} 
+
+
+
+/* Define the animation 
+for the slideshow */
+@keyframes slide { 
+10% { 
+	margin-left: 0px; 
+} 
+
+20% { 
+	margin-left: calc(-728px * 1); 
+} 
+
+30% { 
+	margin-left: calc(-728px * 2); 
+} 
+
+40% { 
+	margin-left: calc(-728px * 3); 
+} 
+50% { 
+	margin-left: calc(-728px * 4); 
+}
+60% { 
+	margin-left: calc(-728px * 5); 
+}
+70% { 
+	margin-left: calc(-728px * 6); 
+}
+80% { 
+	margin-left: calc(-728px * 7); 
+}
+
+}
+#scroll{
+  font-size: 10px;
+}
+.fa {
+           
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+color: white;
+}
+
+        
+  
